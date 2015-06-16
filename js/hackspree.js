@@ -1,5 +1,6 @@
 $(document).foundation({
   orbit: {
+    fluid: '16x6'
     animation: 'slide', // Sets the type of animation used for transitioning between slides, can also be 'fade'
 timer_speed: 10000, // Sets the amount of time in milliseconds before transitioning a slide
 pause_on_hover: true, // Pauses on the current slide while hovering
